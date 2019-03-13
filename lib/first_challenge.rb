@@ -17,4 +17,3 @@ contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if do |value| valu
  end
 end
  
-contacts
