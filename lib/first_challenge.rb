@@ -19,6 +19,5 @@ contacts.each do |key, value|
   contacts.delete_if do |value| 
     value == "strawberry"
   end
-  new_contacts
 end
 
