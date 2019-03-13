@@ -21,18 +21,9 @@ contacts.collect do |key, value|
           value == "strawberry"
     end
   end
+  contacts
 end
 
  
  
- contacts.collect do |person, data|
-
-     data.collect do |attribute, value|
-
-       if attribute == :favorite_icecream_flavors
-  #remember to return your newly altered contacts hash!	        value.delete("strawberry")
-      end
-    end
-  end
-  contacts	  contacts
-end	end
+ 
