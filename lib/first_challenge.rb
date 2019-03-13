@@ -17,11 +17,10 @@ contacts.collect do |key, value|
   info.collect do |key,value|
     
     if key == :favorite_icecream_flavors
-       contacts.delete_if do |value| 
+      contacts.delete_if do |value| 
           value == "strawberry"
-    end
+      end
   end
-  contacts
 end
 
  
