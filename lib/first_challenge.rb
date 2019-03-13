@@ -13,8 +13,8 @@ def first_challenge
     }
   }
 
-contacts.collect do |key, value|
-  info.collect do |key,value|
+contacts.collect do |person, data|
+  info.collect do |,value|
     
     if key == :favorite_icecream_flavors
       contacts.delete_if do |value| 
