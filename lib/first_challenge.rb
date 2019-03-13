@@ -13,7 +13,10 @@ def first_challenge
     }
   }
 
-  new_contacts = contacts.delete_if do |key, value| 
+contacts.each do |key, value|
+  
+  if key == :favorite_icecream_flavors
+  contacts.delete_if do |value| 
     value == "strawberry"
   end
   new_contacts
