@@ -22,7 +22,7 @@ contacts.collect do |key, value|
       end
   end
 end
-
+contacts
  end
  
  
