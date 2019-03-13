@@ -19,9 +19,9 @@ contacts.collect do |person, data|
       value.delete_if do |value| 
           value == "strawberry"
       end
+    end
   end
-end
 contacts
- end
+end
  
  
